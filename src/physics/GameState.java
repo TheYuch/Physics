@@ -134,8 +134,7 @@ public class GameState extends KeyAdapter {
 		{
 			detectcollision(r);
 		}
-		if (grounded)
-			velocity.x *= FRICTION;
+		velocity.x *= FRICTION;
 
 		//keep track of prev position of player for collision logic
 		prevplayer.x = player.x;
